@@ -1,3 +1,29 @@
+## Mint60
+
+![2018-10-28 21 48 40](https://user-images.githubusercontent.com/5633085/47616092-573c0d80-dafb-11e8-84c0-743281fef36d.jpg)
+
+
+1. install
+```
+$ ./util/qmk_install.sh
+```
+
+2. make
+```
+$ make mint60:default
+```
+
+3. fix keymap  
+```
+$ vim keyboards/mint60/keymaps/default/keymap.c
+```
+
+4. make  
+```
+$ make mint60:default:avrdude   
+```
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
@@ -33,26 +59,4 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official website
 
 [http://qmk.fm](http://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
-
-## Mint60
-
-1. install
-```
-$ ./util/qmk_install.sh
-```
-
-2. make
-```
-$ make mint60:default
-```
-
-3. fix keymap  
-```
-$ vim keyboards/mint60/keymaps/default/keymap.c
-```
-
-4. make  
-```
-$ make mint60:default:avrdude   
-```
 
